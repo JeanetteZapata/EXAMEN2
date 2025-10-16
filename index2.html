@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selección de Personaje</title>
+  <link rel="stylesheet" href="CSS/style2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="grid">
+      <div class="card" onclick="mostrarDetalle('CRALA', 'REINA DEL SILENCIO. Antigua guardiana de los relojes rotos, CRALA controla el flujo del tiempo en Umbra. Su corona no es símbolo de poder, sino de castigo: fue elegida para vigilar los portales entre mundos, sin poder cruzarlos. Habla poco, pero cuando lo hace, sus palabras cambian el destino.', 'IMAGES/calabaza.PNG')">
+        <img src="IMAGES/calabaza.PNG" alt="LOADER">
+        <p>CRALA</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('KANA', 'LOS GEMELOS DEL ECO. Dos almas atrapadas en un solo cuerpo dividido. KANA habita las ruinas donde el pasado nunca muere. Uno de los gemelos ve lo que fue, el otro lo que pudo haber sido. Juntos, pueden abrir puertas que nadie más ve, pero si se separan, el mundo se desmorona.', 'IMAGES/cara.PNG')">
+        <img src="IMAGES/cara.PNG" alt="EMBER">
+        <p>KANA</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('GHOOBY', 'EL TRAVIESO. Nacido de una risa olvidada, GHOOBOY flota entre sueños y pesadillas. No es malvado, pero le encanta jugar con el miedo. Protege a los niños dormidos, aunque a veces les deja sustos como regalos. Su poder crece cuando alguien cree en él… o le teme.', 'IMAGES/fantasma.PNG')">
+        <img src="IMAGES/fantasma.PNG" alt="SHADOW">
+        <p>GHOOBY</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('VUUDOO', 'EL MUÑECO DEL AZAR. Hecho con retazos de promesas rotas, VUUDOO puede alterar la suerte de quien lo toque. No tiene voz, pero sus botones ven más de lo que deberían. Algunos lo usan para protegerse, otros para vengarse. Él no elige, solo responde a la intención.', 'IMAGES/muneco.PNG')">
+        <img src="IMAGES/muneco.PNG" alt="GLITCH">
+        <p>VUUDOO</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('DOLLHEX', 'LA MUÑECA MALDITA. Creada como juguete, olvidada como amenaza. DOLLHEX guarda hechizos antiguos en su interior, sellados por quienes temían su poder. Su mirada vacía puede leer el alma, y su presencia altera la magia a su alrededor. Nadie sabe si está viva… o si alguna vez lo estuvo.', 'IMAGES/persona.PNG')">
+        <img src="IMAGES/persona.PNG" alt="WRAITH">
+        <p>DOLLHEX</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('OCTO', 'EL GUARDIAN DEL ABISMO. Criatura de las profundidades mágicas, OCTO controla las corrientes que conectan los mundos. Sus tentáculos no solo atrapan, también sienten emociones. Vive en lo más oscuro, pero no teme a la luz. Si aparece en la superficie, algo grande está por cambiar.', 'IMAGES/pulpo.PNG')">
+        <img src="IMAGES/pulpo.PNG" alt="GAIA">
+        <p>OCTO</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('DEVMASK', 'EL SUSURRO TRIPLE. Tres máscaras, tres voces, tres tentaciones. DEVMASK ofrece poder, verdad o deseo… pero nunca los tres a la vez. Quien lo escucha debe elegir, y esa elección marca su destino. Nadie sabe cuál de las caras es la real, ni si alguna lo es.', 'IMAGES/mascara.PNG')">
+        <img src="IMAGES/mascara.PNG" alt="VOLT">
+        <p>DEVMASK</p>
+      </div>
+      <div class="card" onclick="mostrarDetalle('ROPLA', 'LA SEMILLA DEL CAMBIO. El único con color, ROPLA representa la esperanza que aún queda en Umbra. Pequeño, curioso y alegre, puede despertar lo mejor (o lo peor) en quienes lo rodean. Su brote en la cabeza cambia según su entorno, y cuando florece… algo nuevo comienza.', 'IMAGES/roca.png')">
+        <img src="IMAGES/roca.png" alt="NEBULA">
+        <p>ROPLA</p>
+      </div>
+    </div>
+
+    <div class="detalle" id="detalle">
+      <p>SELECCIONA UN PERSONAJE PARA VER LOS DETALLES</p>
+    </div>
+  </div>
+
+  <script src="JS/magia.js"></script>
+</body>
+</html>
